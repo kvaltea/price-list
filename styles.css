@@ -1,0 +1,165 @@
+.price-card {
+  height: 770px;
+  width: 380px;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  display: flex;
+  flex-direction: column;
+  margin-right: 18px;
+}
+.price-card:last-child {
+  margin-right: 0;
+}
+.price-card__popular-box {
+  width: 147px;
+  height: 25px;
+  background: #dc3f45;
+  transform: rotate(45deg);
+  display: flex;
+  margin-left: 276px;
+  margin-top: 18px;
+}
+.price-card__popular-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin: auto;
+}
+.price-card__title {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding-top: 33px;
+}
+.price-card__subtitle {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 100;
+  margin: 0;
+}
+.price-card__price-green {
+  width: 380px;
+  height: 105px;
+  background-color: #5bb189;
+  margin-top: 33px;
+}
+.price-card__price-blue {
+  width: 380px;
+  height: 105px;
+  background-color: #3a6ba5;
+  margin-top: 33px;
+}
+.price-card__price-orange {
+  width: 380px;
+  height: 105px;
+  background-color: #ec632a;
+  margin-top: 33px;
+}
+.price-card__price-text {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  margin: 0;
+  text-align: center;
+  padding-top: 19px;
+}
+.price-card__description {
+  padding: 40px 26px 0 26px;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
+  text-align: center;
+}
+.price-card__button-green {
+  width: 155px;
+  height: 40px;
+  background: #5bb189;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 17px;
+  margin: auto;
+  margin-top: 39px;
+}
+.price-card__button-blue {
+  width: 155px;
+  height: 40px;
+  background: #3a6ba5;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 17px;
+  margin: auto;
+  margin-top: 39px;
+}
+.price-card__button-orange {
+  width: 155px;
+  height: 40px;
+  background: #ec632a;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 17px;
+  margin: auto;
+  margin-top: 39px;
+}
+
+.offer {
+  padding-top: 40px;
+}
+.offer__box {
+  display: flex;
+  width: 380px;
+  height: 50px;
+}
+.offer__box:nth-child(odd) {
+  background-color: rgba(42, 52, 56, 0.5);
+}
+.offer__checkmark-green {
+  margin: 18px 22px 19px 22px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+  width: 15px;
+  height: 13px;
+}
+.offer__checkmark-blue {
+  margin: 18px 22px 19px 22px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+  width: 15px;
+  height: 13px;
+}
+.offer__checkmark-orange {
+  margin: 18px 22px 19px 22px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+  width: 15px;
+  height: 13px;
+}
+.offer__text {
+  margin: 0;
+  padding-top: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+body {
+  background-color: #141b1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vw;
+}
+
+/*# sourceMappingURL=styles.css.map */

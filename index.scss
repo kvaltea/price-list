@@ -1,0 +1,19 @@
+@import 'price-card.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+body {
+  background-color: #141b1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vw;
+}
