@@ -45,34 +45,24 @@
     margin: 0;
   }
 
-  &__price-green {
+  &__container-price:last-child > &__price {
+    background-color: #ec632a;
+  }
+
+  &__price {
     width: 380px;
     height: 105px;
     background-color: #5bb189;
     margin-top: 33px;
-  }
-
-  &__price-blue {
-    width: 380px;
-    height: 105px;
-    background-color: #3a6ba5;
-    margin-top: 33px;
-  }
-
-  &__price-orange {
-    width: 380px;
-    height: 105px;
-    background-color: #ec632a;
-    margin-top: 33px;
-  }
-
-  &__price-text {
     font-weight: 700;
     font-size: 55px;
     line-height: 67px;
-    margin: 0;
     text-align: center;
     padding-top: 19px;
+
+    &:nth-child(2n) {
+      background-color: #ec632a;
+    }
   }
 
   &__description {
@@ -83,48 +73,9 @@
     text-align: center;
   }
 
-  &__button-green {
-    width: 155px;
-    height: 40px;
-    background: #5bb189;
-    border: none;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 14px;
-    line-height: 17px;
-    margin: auto;
-    margin-top: 39px;
+  &__options-list {
+    padding-top: 40px;
   }
-
-  &__button-blue {
-    width: 155px;
-    height: 40px;
-    background: #3a6ba5;
-    border: none;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 14px;
-    line-height: 17px;
-    margin: auto;
-    margin-top: 39px;
-  }
-
-  &__button-orange {
-    width: 155px;
-    height: 40px;
-    background: #ec632a;
-    border: none;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 14px;
-    line-height: 17px;
-    margin: auto;
-    margin-top: 39px;
-  }
-}
-
-.offer {
-  padding-top: 40px;
 
   &__box {
     display: flex;
@@ -160,5 +111,18 @@
   &__text {
     margin: 0;
     padding-top: 16px;
+  }
+
+  &__order-btn {
+    width: 155px;
+    height: 40px;
+    background-color: #5bb189;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    margin: auto;
+    margin-top: 39px;
   }
 }
