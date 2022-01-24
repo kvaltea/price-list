@@ -6,9 +6,18 @@
   display: flex;
   flex-direction: column;
   margin-right: 18px;
+  padding-top: 33px;
+  padding-bottom: 40px;
 }
 .price-card:last-child {
   margin-right: 0;
+}
+.price-card__head-box {
+  display: flex;
+}
+.price-card__text-box {
+  flex-direction: column;
+  margin-left: 108px;
 }
 .price-card__popular-box {
   width: 147px;
@@ -16,8 +25,10 @@
   background: #dc3f45;
   transform: rotate(45deg);
   display: flex;
-  margin-left: 276px;
-  margin-top: 18px;
+  order: 1;
+  flex: 1;
+  margin-left: 40px;
+  margin-top: -12px;
 }
 .price-card__popular-text {
   font-weight: 700;
@@ -31,7 +42,6 @@
   font-weight: 700;
   text-align: center;
   margin: 0;
-  padding-top: 33px;
 }
 .price-card__subtitle {
   font-size: 20px;
