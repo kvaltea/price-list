@@ -12,8 +12,10 @@ html {
 body {
   background-color: #141b1c;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vw;
-  width: 100%;
+  height: 100vh;
+}
+
+.price-table {
+  margin: auto;
+  display: flex;
 }
