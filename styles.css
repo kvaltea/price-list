@@ -93,6 +93,7 @@
   height: 13px;
 }
 .price-card__order-btn {
+  margin-top: 39px;
   width: 155px;
   height: 40px;
   background-color: #5bb189;
@@ -128,7 +129,6 @@ body {
 ul {
   margin: 0;
   padding: 0;
-  padding-bottom: 39px;
 }
 
 /*# sourceMappingURL=styles.css.map */
