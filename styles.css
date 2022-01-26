@@ -54,15 +54,12 @@
   padding-top: 19px;
 }
 .price-card__description {
-  padding: 40px 26px 0 26px;
+  padding: 40px 26px;
   font-size: 15px;
   line-height: 18px;
   margin: 0;
   font-weight: 300;
   text-align: center;
-}
-.price-card__options-list {
-  padding-top: 40px;
 }
 .price-card__box {
   display: flex;
@@ -82,13 +79,13 @@
   height: 13px;
 }
 .price-card__checkmark-blue {
-  margin: 18px 22px 19px 22px;
+  margin: 2px 22px 19px 22px;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
   width: 15px;
   height: 13px;
 }
 .price-card__checkmark-orange {
-  margin: 18px 22px 19px 22px;
+  margin: 2px 22px 19px 22px;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
   width: 15px;
   height: 13px;
