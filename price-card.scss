@@ -68,12 +68,15 @@
     text-align: center;
   }
 
+  &__options-list {
+    padding-bottom: 39px;
+  }
+
   &__box {
     display: flex;
     width: 380px;
     height: 50px;
-    margin: 0;
-    padding-top: 16px;
+    align-items: center;
     font-weight: 300;
 
     &:nth-child(odd) {
@@ -82,30 +85,24 @@
   }
 
   &__checkmark-green {
-    margin: 2px 22px 19px 22px;
+    margin: 0 22px;
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
     width: 15px;
     height: 13px;
   }
 
   &__checkmark-blue {
-    margin: 2px 22px 19px 22px;
+    margin: 0 22px;
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
     width: 15px;
     height: 13px;
   }
 
   &__checkmark-orange {
-    margin: 2px 22px 19px 22px;
+    margin: 0 22px;
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
     width: 15px;
     height: 13px;
-  }
-
-  &__text {
-    margin: 0;
-    padding-top: 16px;
-    font-weight: 300;
   }
 
   &__order-btn {
@@ -118,7 +115,6 @@
     font-size: 14px;
     line-height: 17px;
     margin: auto;
-    margin-top: 39px;
     font-weight: 300;
   }
 }
