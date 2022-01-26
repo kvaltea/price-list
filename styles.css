@@ -68,12 +68,15 @@
   display: flex;
   width: 380px;
   height: 50px;
+  margin: 0;
+  padding-top: 16px;
+  font-weight: 300;
 }
 .price-card__box:nth-child(odd) {
   background-color: rgba(42, 52, 56, 0.5);
 }
 .price-card__checkmark-green {
-  margin: 18px 22px 19px 22px;
+  margin: 2px 22px 19px 22px;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
   width: 15px;
   height: 13px;
